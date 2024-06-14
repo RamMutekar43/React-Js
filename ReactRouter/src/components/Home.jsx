@@ -7,7 +7,6 @@ function Home(){
           <div className=" flex justify-center w-full h-96 items-center bg-[url('https://okcredit-blog-images-prod.storage.googleapis.com/2020/12/coaching2.jpg')] bg-cover bg-center">
             <h1 className=" font-bold p-6 text-center w-1/2 text-5xl">Master Mind Coaching Classes</h1>
           </div>
-          
             <div className=" flex w-full h-auto justify-evenly py-20">
               <div className=" w-2/5  p-8 h-60">
                 <h1 className=" underline">What We Offer:</h1>

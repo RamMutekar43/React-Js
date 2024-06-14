@@ -15,7 +15,6 @@ function Footer(){
                     <div id="join" className=' h-auto w-1/4 flex items-center font-semibold'>
                         <p></p>
                     </div>
-
                 <div className=' h-auto w-1/2 flex items-center justify-evenly underline font-semibold'>
                     <ul className='w-1/4'>
                         <li><Link to="">Home</Link></li>
@@ -34,7 +33,6 @@ function Footer(){
                     </ul>
                 </div>
             </div>
-
             <div className=' bg-black text-white font-light h-10 flex justify-center items-center'>
         2024.All Rights Reserved.
             </div>
