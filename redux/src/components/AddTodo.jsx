@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import {useDispatch}  from 'react-redux'
 import { addTodo } from "../features/todo/todoSlice";
 
+
 function AddTodo(){
 
     const [input, setInput]= useState("")
@@ -9,7 +10,7 @@ function AddTodo(){
 
     const addTodoHandler= (e)=>{
         e.preventDefault();
-        input? dispatch(addTodo(input)): alert("Please enter a todo");
+        input? dispatch(addTodo(input)): alert("Please enter a Todo.");
 
         // dispatch(addTodo(input))
         setInput("");
